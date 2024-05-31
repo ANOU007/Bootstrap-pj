@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    margin-top: 20vh;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #40514E;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #66BFBF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #11999E;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #11999E;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+#logoutButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #66BFBF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logoutButton:hover {
+    background-color: #11999E;
+}
